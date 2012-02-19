@@ -1,0 +1,245 @@
+EESchema Schematic File Version 2  date Sun 19 Feb 2012 08:25:00 PM CET
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:tvbgone-shield-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "19 feb 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 9100 4050
+Wire Wire Line
+	9100 4200 9100 3850
+Connection ~ 7300 3950
+Wire Wire Line
+	7150 3950 7450 3950
+Connection ~ 8300 4650
+Wire Wire Line
+	8300 4800 8300 4650
+Wire Wire Line
+	8600 5500 8800 5500
+Wire Wire Line
+	9100 4600 9100 4700
+Wire Wire Line
+	9100 5200 9100 5300
+Wire Wire Line
+	9100 5900 9100 5700
+Wire Wire Line
+	7150 4650 7300 4650
+Wire Wire Line
+	7150 4750 7500 4750
+Wire Wire Line
+	7500 4750 7500 5500
+Wire Wire Line
+	7500 5500 8100 5500
+Wire Wire Line
+	7300 3950 7300 3850
+Wire Wire Line
+	7150 4050 9100 4050
+Connection ~ 7750 4050
+NoConn ~ 9600 5150
+NoConn ~ 9600 5050
+NoConn ~ 9600 4950
+NoConn ~ 9600 4850
+NoConn ~ 9600 4750
+NoConn ~ 9600 4650
+NoConn ~ 9600 4550
+NoConn ~ 9600 4450
+NoConn ~ 9600 4250
+NoConn ~ 9600 4150
+NoConn ~ 9600 4050
+NoConn ~ 9600 3950
+NoConn ~ 9600 3850
+NoConn ~ 9600 3750
+NoConn ~ 7150 5150
+NoConn ~ 7150 5050
+NoConn ~ 7150 4950
+NoConn ~ 7150 4850
+NoConn ~ 7150 4550
+NoConn ~ 7150 4450
+NoConn ~ 7150 4350
+NoConn ~ 7150 4250
+NoConn ~ 7150 3750
+NoConn ~ 7150 3850
+$Comp
+L CONN_8 P3
+U 1 1 4F4138FA
+P 9950 4800
+F 0 "P3" V 9900 4800 60  0000 C CNN
+F 1 "CONN_8" V 10000 4800 60  0000 C CNN
+	1    9950 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_6 P4
+U 1 1 4F4138EB
+P 9950 4000
+F 0 "P4" V 9900 4000 60  0000 C CNN
+F 1 "CONN_6" V 10000 4000 60  0000 C CNN
+	1    9950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_10 P2
+U 1 1 4F4138DE
+P 6800 4700
+F 0 "P2" V 6750 4700 60  0000 C CNN
+F 1 "CONN_10" V 6850 4700 60  0000 C CNN
+	1    6800 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_4 P1
+U 1 1 4F4138CC
+P 6800 3900
+F 0 "P1" V 6750 3900 50  0000 C CNN
+F 1 "CONN_4" V 6850 3900 50  0000 C CNN
+	1    6800 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 4F3AF62D
+P 7450 3950
+F 0 "#FLG01" H 7450 4220 30  0001 C CNN
+F 1 "PWR_FLAG" H 7450 4180 30  0000 C CNN
+	1    7450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 4F3AF48B
+P 7750 4050
+F 0 "#FLG02" H 7750 4320 30  0001 C CNN
+F 1 "PWR_FLAG" H 7750 4280 30  0000 C CNN
+	1    7750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 4F3AF240
+P 7300 3850
+F 0 "#PWR03" H 7300 3850 30  0001 C CNN
+F 1 "GND" H 7300 3780 30  0001 C CNN
+	1    7300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR04
+U 1 1 4F3AF209
+P 7600 4050
+F 0 "#PWR04" H 7600 4140 20  0001 C CNN
+F 1 "+5V" H 7600 4140 30  0000 C CNN
+	1    7600 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 4F3AF172
+P 8300 4800
+F 0 "#PWR05" H 8300 4800 30  0001 C CNN
+F 1 "GND" H 8300 4730 30  0001 C CNN
+	1    8300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW1
+U 1 1 4F3AE72E
+P 7800 4650
+F 0 "SW1" H 7800 4750 70  0000 C CNN
+F 1 "SPST" H 7800 4550 70  0000 C CNN
+	1    7800 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 4F3AE69A
+P 9100 5900
+F 0 "#PWR06" H 9100 5900 30  0001 C CNN
+F 1 "GND" H 9100 5830 30  0001 C CNN
+	1    9100 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 4F3AE66F
+P 8350 5500
+F 0 "R2" V 8430 5500 50  0000 C CNN
+F 1 "47" V 8350 5500 50  0000 C CNN
+	1    8350 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR07
+U 1 1 4F3AE5B1
+P 9100 3850
+F 0 "#PWR07" H 9100 3940 20  0001 C CNN
+F 1 "+5V" H 9100 3940 30  0000 C CNN
+	1    9100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 4F3AE56A
+P 9100 4950
+F 0 "R1" V 9180 4950 50  0000 C CNN
+F 1 "10" V 9100 4950 50  0000 C CNN
+	1    9100 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q1
+U 1 1 4F3AE48C
+P 9000 5500
+F 0 "Q1" H 9000 5350 50  0000 R CNN
+F 1 "NPN" H 9000 5650 50  0000 R CNN
+	1    9000 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 4F3ADF66
+P 9100 4400
+F 0 "D1" H 9100 4500 50  0000 C CNN
+F 1 "LED" H 9100 4300 50  0000 C CNN
+	1    9100 4400
+	0    -1   1    0   
+$EndComp
+$EndSCHEMATC

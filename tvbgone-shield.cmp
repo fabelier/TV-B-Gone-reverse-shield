@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sun 19 Feb 2012 08:25:53 PM CET
+
+BeginCmp
+TimeStamp = /4F3ADF66;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4138CC;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4138DE;
+Reference = P2;
+ValeurCmp = CONN_10;
+IdModule  = SIL-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4138FA;
+Reference = P3;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4138EB;
+Reference = P4;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3AE48C;
+Reference = Q1;
+ValeurCmp = NPN;
+IdModule  = TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3AE56A;
+Reference = R1;
+ValeurCmp = 10;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3AE66F;
+Reference = R2;
+ValeurCmp = 47;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3AE72E;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+EndListe
