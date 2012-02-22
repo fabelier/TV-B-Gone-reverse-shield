@@ -2,4 +2,7 @@ It's a "reverse shield" to make a TV-B-Gone under a Boarduino.
 
 See our wiki about this at : http://wiki.fabelier.org/index.php?title=TVBGone
 
-There is another branch for the same shield with a stripboard (if you can't print PCB).
+This branch is about the same shield made with a stripboard. It's cheaper and does need less tools.
+
+The fzz file is made with Fritzing app. It's free.
+Other files are form KiCad (free too).

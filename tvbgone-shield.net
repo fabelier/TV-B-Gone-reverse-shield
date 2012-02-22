@@ -1,75 +1,50 @@
-# EESchema Netlist Version 1.1 created  Sun 19 Feb 2012 08:25:53 PM CET
+# EESchema Netlist Version 1.1 created  20/02/2012 17:36:46
 (
- ( /4F3ADF66 LED-3MM D1 LED
-  ( 1 +5V )
-  ( 2 N-000021 )
+ ( /4F425543 $noname  R3 1K {Lib=R}
+  (    1 GND )
+  (    2 N-000003 )
  )
- ( /4F4138CC SIL-4 P1 CONN_4
-  ( 1 +5V )
-  ( 2 GND )
-  ( 3 ? )
-  ( 4 ? )
+ ( /4F4138EB $noname  P2 CONN_6 {Lib=CONN_6}
+  (    1 N-000003 )
+  (    2 ? )
+  (    3 GND )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
  )
- ( /4F4138DE SIL-10 P2 CONN_10
-  ( 1 ? )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 ? )
-  ( 5 N-000023 )
-  ( 6 N-000025 )
-  ( 7 ? )
-  ( 8 ? )
-  ( 9 ? )
-  ( 10 ? )
+ ( /4F4138CC $noname  P1 CONN_6 {Lib=CONN_6}
+  (    1 N-000008 )
+  (    2 N-000009 )
+  (    3 ? )
+  (    4 ? )
+  (    5 N-000012 )
+  (    6 ? )
  )
- ( /4F4138FA SIL-8 P3 CONN_8
-  ( 1 ? )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 ? )
-  ( 5 ? )
-  ( 6 ? )
-  ( 7 ? )
-  ( 8 ? )
+ ( /4F3AE72E $noname  SW1 SPST {Lib=SPST}
+  (    1 N-000009 )
+  (    2 GND )
  )
- ( /4F4138EB SIL-6 P4 CONN_6
-  ( 1 ? )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 ? )
-  ( 5 ? )
-  ( 6 ? )
+ ( /4F3AE66F $noname  R2 47 {Lib=R}
+  (    1 N-000008 )
+  (    2 N-000014 )
  )
- ( /4F3AE48C TO92 Q1 NPN
-  ( 1 GND )
-  ( 2 N-000022 )
-  ( 3 N-000020 )
+ ( /4F3AE56A $noname  R1 10 {Lib=R}
+  (    1 N-000012 )
+  (    2 N-000013 )
  )
- ( /4F3AE56A R3 R1 10
-  ( 1 N-000021 )
-  ( 2 N-000020 )
+ ( /4F3AE48C $noname  Q1 NPN {Lib=NPN}
+  (    1 GND )
+  (    2 N-000014 )
+  (    3 N-000015 )
  )
- ( /4F3AE66F R3 R2 47
-  ( 1 N-000023 )
-  ( 2 N-000022 )
- )
- ( /4F3AE72E SW_PUSH_SMALL SW1 SPST
-  ( 1 N-000025 )
-  ( 2 GND )
+ ( /4F3ADF66 $noname  D1 LED {Lib=LED}
+  (    1 N-000013 )
+  (    2 N-000015 )
  )
 )
 *
 { Allowed footprints by component:
-$component D1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component R1
+$component R3
  R?
  SM0603
  SM0805
@@ -83,5 +58,50 @@ $component R2
  R?-*
  SM1206
 $endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 3 "" ""
+ P2 1
+ R3 2
+Net 8 "" ""
+ R2 1
+ P1 1
+Net 9 "" ""
+ SW1 1
+ P1 2
+Net 11 "GND" "GND"
+ R3 1
+ Q1 1
+ SW1 2
+ P2 3
+Net 12 "" ""
+ P1 5
+ R1 1
+Net 13 "" ""
+ D1 1
+ R1 2
+Net 14 "" ""
+ Q1 2
+ R2 2
+Net 15 "" ""
+ D1 2
+ Q1 3
+}
+#End
